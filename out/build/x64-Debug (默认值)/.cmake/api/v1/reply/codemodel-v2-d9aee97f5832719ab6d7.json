@@ -1,0 +1,311 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1,
+						3
+					]
+				},
+				{
+					"build" : "app",
+					"jsonFile" : "directory-app-Debug-7ab44524cbd5ada90c6a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "app",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "dependences/glad",
+					"jsonFile" : "directory-dependences.glad-Debug-c98c1d7e845944ab1db1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "dependences/glad",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "dependences/imgui",
+					"jsonFile" : "directory-dependences.imgui-Debug-abe2147433e1bceb5292.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "dependences/imgui",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "dependences/gtest",
+					"jsonFile" : "directory-dependences.gtest-Debug-1a7d7e0bca37032d337b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "dependences/gtest",
+					"targetIndexes" : 
+					[
+						8,
+						9
+					]
+				},
+				{
+					"build" : "test",
+					"jsonFile" : "directory-test-Debug-f18be1977b403cfd1a50.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "components",
+					"childIndexes" : 
+					[
+						7,
+						8,
+						9
+					],
+					"jsonFile" : "directory-components-Debug-167515c4e4d9cb6cacf4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "components"
+				},
+				{
+					"build" : "components/example",
+					"jsonFile" : "directory-components.example-Debug-06ae5cfff20fd19194cf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 0,
+					"source" : "components/example",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "components/simple_path_tracing",
+					"jsonFile" : "directory-components.simple_path_tracing-Debug-fac97ca429cf20d0d896.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 0,
+					"source" : "components/simple_path_tracing",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "components/ray_cast",
+					"jsonFile" : "directory-components.ray_cast-Debug-4c550fbde089ef665444.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 0,
+					"source" : "components/ray_cast",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9
+					],
+					"name" : "NRenderer",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "gtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "NRApp::@5f5a17c01335469806cb",
+					"jsonFile" : "target-NRApp-Debug-06a3cbc6bb8ae146ca25.json",
+					"name" : "NRApp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "NRServer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NRServer-Debug-e1204c7e19ed241037ea.json",
+					"name" : "NRServer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "NR_GTest::@36f028580bb02cc8272a",
+					"jsonFile" : "target-NR_GTest-Debug-fc419641174ceb7fdc17.json",
+					"name" : "NR_GTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "NRenderer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NRenderer-Debug-4e96120bdcfe71c115f3.json",
+					"name" : "NRenderer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "RayCast::@9c28c74588eacfbfda31",
+					"jsonFile" : "target-RayCast-Debug-10b9161d48ac3d62d01e.json",
+					"name" : "RayCast",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "RenderExample::@237971921040229fd6e4",
+					"jsonFile" : "target-RenderExample-Debug-d2692c932b2c46b53454.json",
+					"name" : "RenderExample",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "SimplePathTracing::@6dbc90113821f81829c1",
+					"jsonFile" : "target-SimplePathTracing-Debug-2a34e7dbbd046bd31a9a.json",
+					"name" : "SimplePathTracing",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "glad::@e2643cb27bb33766265a",
+					"jsonFile" : "target-glad-Debug-fc0c8f34ba48da32c28b.json",
+					"name" : "glad",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "gtest::@3d994f3c13b3e6b0a6ad",
+					"jsonFile" : "target-gtest-Debug-fc9bcdcfc34d6febb970.json",
+					"name" : "gtest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "gtest_main::@3d994f3c13b3e6b0a6ad",
+					"jsonFile" : "target-gtest_main-Debug-f4a80d3c49fa3ac1a668.json",
+					"name" : "gtest_main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "imgui::@109cd3ff770a3de14f50",
+					"jsonFile" : "target-imgui-Debug-839601a395d6e01a8c58.json",
+					"name" : "imgui",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/vs s/cs/jitu/nrenderer/code/out/build/x64-Debug (\u9ed8\u8ba4\u503c)",
+		"source" : "E:/vs s/cs/jitu/nrenderer/code"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
